@@ -1,0 +1,200 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+.content{
+	max-width: 500px;
+	margin: 0 auto;
+	
+	position: relative;
+	
+}
+.container{
+	padding: 0px;
+	height: 54px;
+
+
+}
+.wrapper{
+	
+	background: #45B8AC;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.mainBar{
+	padding: 10px;
+}
+.form-group{
+	position: relative;
+	margin-bottom: 0px;
+}
+button.enter{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	background: #FFF;
+	outline: none;
+	border: 0px;
+	font-weight: bold;
+	color: #aaa;
+}
+button.enter:hover{
+	background: white;
+}
+.form-control{
+	border-radius: 17px;
+	background: rgba(255,255,255,0.3);
+	border: none;
+	outline: none;
+	color: white;
+	
+}
+input.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+
+.todo i.glyphicon-trash{
+	color: #EA3556;
+}
+.todo i.glyphicon-ok{
+	color: #00AA4F;
+}
+
+
+ul{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	
+
+}
+.todo li{
+	display: block;
+	background: white;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: white;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(194,194,194,1);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(194,194,194,1);
+	box-shadow: 0px 0px 2px 1px rgba(194,194,194,1);
+	line-height: 40px;
+	border-radius: 5px;
+
+
+}
+.todo li p{
+	display: inline-block;
+	margin-bottom: 0px;
+	padding-left: 20px;
+
+
+}
+ .todo button{
+  	float: right;
+  	margin-left: 10px;
+  	width: 40px;
+	height: 40px;
+  }
+
+  ul#completed button.ok{
+  	background: #00AA4F;
+  }
+  ul#completed i.glyphicon-ok{
+	color: white;
+}
+
+.list{
+	position: absolute;
+	top: 52px;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #E2E5EE;
+}
+ul.todo#completed:not(:empty) {
+	position:relative;
+	padding:20px 0 0 0;
+}
+
+ul.todo#completed:not(:empty):before {
+	content:'';
+	width:150px;
+	height:1px;
+	background: rgba(69,184,172,0.45);
+	position:absolute;
+	top:10px;
+	left:50%;
+	margin:0 0 0 -75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+  ToDoTasks
+
+  .toDoTasks{
+	margin-top: 20px;
+	background: white;
+	overflow: hidden;
+	padding: 5px;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(194,194,194,1);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(194,194,194,1);
+	box-shadow: 0px 0px 2px 1px rgba(194,194,194,1);
+	border-radius: 5px;
+
+  }
+
+  .toDoTasks button{
+  	float: right;
+  	margin-left: 10px;
+  }
+
+
+   ToDoTasks
+
+  .finishedTasks{
+	margin-top: 50px;
+	background: white;
+	overflow: hidden;
+	padding: 5px;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(194,194,194,1);
+	-moz-box-shadow: 0px 0px 2px 1px rgba(194,194,194,1);
+	box-shadow: 0px 0px 2px 1px rgba(194,194,194,1);
+	border-radius: 5px;
+
+  }
+
+  .finishedTasks button{
+  	float: right;
+  	margin-left: 10px;
+  }
+
+ */
